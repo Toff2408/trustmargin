@@ -1,16 +1,213 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="/css/normalize.css">
-    <link rel="stylesheet" href="/css/style.css">
-</span><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css"><span class="pln">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="/css/normalize.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css"
+    />
+  </head>
+  <body>
+    <p id="top"></p>
+    <!-- firstpage -->
+    <!-- header -->
+    <nav class="nav collapsible collapsible--expanded">
+      <a href="/"><img src="/img/companylogo.png" alt="" class="nav__img" /></a>
+      <i class="fa-solid fa-bars nav__toggler"></i>
+      <ul class="list nav__list collapsible__content">
+        <li><a href="/" class="nav__item">home</a></li>
+        <li><a href="#services" class="nav__item">services</a></li>
+        <li><a href="#discover" class="nav__item">discover</a></li>
+        <li><a href="#about" class="nav__item">about us</a></li>
+        <li>
+          <a href="/getstarted.html" class="btn btn__start">get started</a>
+        </li>
+      </ul>
+    </nav>
+    <!-- hero section -->
+    <div class="hero">
+      <div class="container " data-aos="flip-up" data-aos-duration="3000">
+        <div class="hero__holder">
+          <h1 class="hero_display">fast & easy trading.</h1>
+        </div>
+        <div class="trade">
+          <a href="/getstarted.html" class="trade__link">trade now</a>
+        </div>
+        <img src="/img/phone.png" alt="" class="btc__rateimg">
+      </div>
+    </div>
 
-</head>
-<body>
-   
-</body>
+    <!-- secondpage -->
+    <div class="service" id="services">
+      <div class="container service__box" data-aos="flip-right" data-aos-duration="1000" >
+        <div class="service_container">
+          <div class="gif_services">
+            <h2 class="service__text">Trade giftcards with us</h2>
+            <p class="service_text2">
+              we have streamlined the process of selling and trading your
+              giftcatds.
+            </p>
+            <a href="/getstarted.html" class="btn btn__start btn_bgcolor">get started</a>
+          </div>
+          <div class="gift__img">
+            <img src="/img/phone card.png" alt="" class="card___img" />
+          </div>
+        </div>
+
+        <div class="main__services">
+          <div class="container maincont">
+            <div class="row row-wrap">
+              <div class="col__holder">
+                <div class="card" style="width: 22rem">
+                  <img
+                    src="/img/iTunes card.png"
+                    class="card-img-top card_itunes"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">itunes</h5>
+                    <p class="card-text textcardd">
+                      us itunes, uk itunes, cad itunes, ger itunes, chf
+                      itunes,italy itunes, spain itunes, france itunes, more...
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col__holder">
+                <div class="card" style="width: 22rem">
+                  <img
+                    src="/img/google card.png"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">google card</h5>
+                    <p class="card-text textcardd">
+                      us google card, eur google card, aud google card, cad
+                      google card, chf oogle card, more...
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col__holder">
+                <div class="card" style="width: 22rem">
+                  <img
+                    src="/img/steam card.png"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">steam card</h5>
+                    <p class="card-text textcardd">
+                      us steam, uk steam, chf steam, nzd steam, aud steam, eur
+                      steam, more...
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col__holder">
+                <div class="card" style="width: 22rem">
+                  <img
+                    src="/img/Razer gold card.png"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">razer gold</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <p class="giftcards__opt">
+              <span class="giftcards__options"
+                >view more <i class="fa-solid fa-location-arrow"></i
+              ></span>
+              vanilla, ebay card, ae card, sephora card, visa card, xbox card,
+              ft card, macy card
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- thirdpage  -->
+    <!-- discover  -->
+    <div class="discover" id="discover">
+      <div class="container">
+        <div class="article__content">
+          <div class="righthand">
+            <h3 class="right__first">today's cryptocurrency prices</h3>
+            <p class="right__second">the global crypto cap market is $1.99t</p>
+          </div>
+
+          <div class="lefthand">
+            <img src="/img/histogram.png" alt="" class="ariku__img" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- about us -->
+
+    <div class="about_us" id="about">
+      <div class="container content_arena">
+        <div class="content4">
+          <h4 class="about__statement">
+            <i class="fa-sharp fa-solid fa-circle-info"></i> about us
+          </h4>
+          <p class="about__statement2">
+            we are a trading platform that lets you trade cryptocurrency and
+            giftcards. we have helped many people get their first crypto
+            holdings. we offer a range of servicesfrom simple buying and
+            selling, to comlx arbitrage oppurtunities, so if you're looking for
+            something more advanced than just buying lump sum of coin, we can
+            help you get there.
+          </p>
+
+          <h5 class="title_about">talk to us:</h5>
+
+          <ul class="first_contact">
+            <li class="info_contact">
+              <i class="fa-brands fa-snapchat"></i> @trustmargin
+            </li>
+            <li class="info_contact">
+              <i class="fa-brands fa-instagram"></i> @trustmarginexchange
+            </li>
+          </ul>
+          <ul class="first_contact">
+            <li class="info_contact">
+              <i class="fa-sharp fa-solid fa-envelope"></i>
+              @trustmargin19@mail.com
+            </li>
+            <li class="info_contact">
+              <i class="fa-brands fa-whatsapp"></i> +234 708 506 6916
+            </li>
+          </ul>
+        </div>
+
+        <div class="content_img">
+          <img src="/img/3d logo.png" alt="" class="content-main" />
+        </div>
+      </div>
+    </div>
+    <a href="#top">top</a>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+        </script>
+        <script src="js/main.js"></script>
+  </body>
 </html>
