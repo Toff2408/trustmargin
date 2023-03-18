@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-image: url(/img/background.jpg);
   background-size: cover;
@@ -113,11 +117,34 @@ li .nav__item:hover {
   color: #9b4dca;
 }
 
+.btc__rateimg {
+  object-fit: cover;  
+}
 
 .hero__holder {
   display: flex;
   justify-content: center;
   align-items: center;
+  
+}
+
+.hero__barimg {
+  display: flex;
+  flex-direction: column;
+  margin-top: 4rem;
+  justify-content: center;
+}
+
+.btc__hero {
+  font-size: 3rem;
+  text-transform:uppercase ;
+  font-weight: 600;
+  padding-top: 4rem;
+  color: rgb(202, 198, 198);
+  letter-spacing: 1px;
+  justify-self: center;
+  max-width: 30rem;
+  text-align: center;
 }
 
 .trade {
@@ -350,6 +377,7 @@ li .nav__item:hover {
 .first_contact {
     display: flex;
     list-style: none;
+    flex-direction: column;
 }
 
 .info_contact {
@@ -516,6 +544,50 @@ li .nav__item:hover {
     flex-direction: row;
 }
 
+.hero__barimg {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.btc__rateimg {
+  object-fit: cover;
+  width: 50%;
+}
+
+.first_contact {
+  display: flex;
+  list-style: none;
+  flex-direction: row;
+}
+
+.btc__hero {
+  font-size: 5rem;
+  text-transform:uppercase ;
+  font-weight: 600;
+  padding-top: 4rem;
+  color: rgb(220, 209, 209);
+  letter-spacing: 1px;
+  justify-self: center;
+  max-width: 40rem;
+  text-align: center;
+}
+.btntop {
+  background: inherit;
+  display: flex;
+  justify-content: end;
+}
+
+.top__btm {
+  background: white;
+  margin-right: 3rem;
+  text-align: center;
+  margin-bottom: 3rem;
+  border-radius: 50%;
+  padding: 10px 20px;
+  font-weight: 800;
+  font-size: 2rem;
+}
 }
 
 
