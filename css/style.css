@@ -143,7 +143,6 @@ li .nav__item:hover {
   color: rgb(202, 198, 198);
   letter-spacing: 1px;
   justify-self: center;
-  max-width: 30rem;
   text-align: center;
 }
 
